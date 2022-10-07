@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Estoy probando colores y fuentes */
+p {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+#primera-noticia {
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+
+#segunda-noticia {
+    color: purple;
+    font-size: 12px;
+    text-align: center;
+}
+
+.encabezado {
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+*.warning {
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+.autor, .fecha, .ubicacion{
+    text-decoration: underline;
+}

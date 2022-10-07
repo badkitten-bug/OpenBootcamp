@@ -1,0 +1,54 @@
+.colores {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.color-hexadecimal {
+    color: #F69013;
+}
+
+.color-rgb {
+    color: rgb(255, 0, 0);
+}
+
+.color-rgba {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+/*fondos*/
+.fondo {
+    /*     background-color: #F69013;
+ */
+    background-image: url("https://www.w3schools.com/css/img_tree.png");
+    background-position: center center;
+}
+
+.fondo-interno {
+    background-color: #F69013;
+    background-image: url("https://th.bing.com/th/id/OIP.nSTEu3AsqL1tq87dXCrYxQHaFj?pid=ImgDet&rs=1");
+    background-position: center center;
+    /* background-repeat: no-repeat;
+    background-size: 100px 100px; */
+}
+
+/*tamaños*/
+
+.ancho{
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.alto{
+    height: 500px;
+    background-color: aquamarine;
+    width: 300px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: #F69013;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
