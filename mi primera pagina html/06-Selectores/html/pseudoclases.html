@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores,Pseudo-Clases y Pseudo-elementos en CSS</title>
+    <link rel="stylesheet" href="../css/pseudoclases.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* Para que el padding no se sume al ancho */
+        }
+
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover {
+            /*Cuando el mouse pasa por encima del elemento*/
+            background-color: blue;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado p:first-child {
+            /*Selecciona el primer elemento de la lista*/
+            color: blue;
+        }
+
+        a:link {
+            color: deeppink;
+        }
+
+        a:visited {
+            color: crimson;
+        }
+        a:hover {
+            color: pink;
+        }
+        a:active{
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores nulla aperiam dolore, sequi
+            molestias ducimus magnam deserunt unde non quas nam itaque optio, quam eligendi blanditiis nihil esse harum.
+        </p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank"> Enlace a google </a>
+        <a href="http://marca.com" target="_blank"> Enlace a google </a>
+    </div>
+    <button> <span class="frase"> </span></button>
+</body>
+
+</html>
