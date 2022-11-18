@@ -1,0 +1,26 @@
+.padre{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(33, 132, 167);
+    
+}
+
+.btn-modern{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20%;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    margin-left: 200%;
+    margin-top: 340%;  
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    background-color: rgb(25, 93, 116);
+    transition: 0.4s;
+    color: white;
+}
