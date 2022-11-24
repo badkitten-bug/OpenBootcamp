@@ -1,0 +1,53 @@
+.elementos {
+    display: flex;
+}
+.barra-lateral {
+    width: 50%;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    height: 50%;
+    /*heigh sirve para que la barra lateral ocupe todo el alto de la pantalla*/
+    display: flex;
+    color: white;
+}
+
+.barra-1 {
+    background-color: green;
+    height: 20%;
+
+}
+
+.barra-2 {
+    background-color: blue;
+    height: 20%;
+}
+
+.barra-3 {
+    background-color: red;
+    height: 20%;
+
+}
+
+.principal {
+    width: 50%;
+    background-color: #c5abab;
+    height: 100%;
+    padding: 2rem;
+    color: black;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+@media (max-width: 640px) {
+    .barra-lateral {
+        flex-direction: column;
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        justify-content: center;
+    }
+}

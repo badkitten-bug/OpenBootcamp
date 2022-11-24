@@ -1,0 +1,27 @@
+/* https:codepen.io/enxaneta/full/adLPwv */
+
+.contenedor{
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem; /* Espacio entre los elementos */
+    min-height: 5rem;
+    /*Eje principal */
+    justify-content: space-around;
+    /* Eje secundario*/
+    align-items: center;
+
+    /*flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: salmon;
+    padding: 0.25rem; /* Espacio entre el borde y el contenido */
+    width: 10rem;
+}
+
+.item2{
+    justify-self: stretch;
+    
+}
