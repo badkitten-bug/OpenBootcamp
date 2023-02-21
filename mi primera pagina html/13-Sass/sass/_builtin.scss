@@ -1,0 +1,46 @@
+//Funciones de Sass con cadenas de texto
+
+@use "sass:string";
+
+@debug "hola";
+@debug string.index("helvetica Neue", "Neue");
+
+$string:"Helvetica";
+$newString: string.insert($string, "Bold", 8);
+
+@debug $newString;
+@debug string.length($newString, 5, 9);
+
+@debug string.to-upper-case("Roboto Mono");
+@debug string.to-lower-case("Roboto Mono");
+
+@debug string.unique-id();
+
+//Funciones de Sass con números     
+
+@debug math.$e;
+@debug math.$pi;
+
+@debug math.ceil(4.6);
+@debug math.floor(4.6);
+@debug math.round(4,4);
+
+@debug math.clamp(10, 20, 30);
+
+@debug math.max(10, 20, 30,1000);
+@debug math.min(10, 20, 30,1000);
+@debug math.abs(8);
+@debug math.abs(-8);
+
+@debug math.pow(2,12);
+@debug math.pow(2, math.abs(-23));
+
+@debug math.cos(math.$pi);
+@debug math.sen(math.$pi);
+@debug math.tan(math.$pi);
+
+//// funciones de Sass con listas
+$lista1: 10px, 20px, 30px, 40px;
+
+@debug $lista1;
+@debug list.append($lista1, 25px,space);
